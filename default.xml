@@ -148,7 +148,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
@@ -206,6 +206,7 @@
   <project path="android" name="aosp-hybris/platform_manifest" remote="github" revision="hybris-4.2.2_r1" />
   <project path="frameworks/base" name="aosp-hybris/platform_frameworks_base" remote="github" revision="hybris-4.2.2_r1" />
   <project path="frameworks/native" name="aosp-hybris/platform_frameworks_native" remote="github" revision="hybris-4.2.2_r1" />
+  <project path="frameworks/av" name="aosp-hybris/platform_frameworks_av" remote="github" revision="hybris-4.2.2_r1" />
   <project path="system/core" name="aosp-hybris/platform_system_core" remote="github" revision="hybris-4.2.2_r1" />
   <project path="bionic" name="aosp-hybris/platform_bionic" remote="github" revision="hybris-4.2.2_r1" />
   <project path="hardware/ril" name="aosp-hybris/platform_hardware_ril" remote="github" revision="hybris-4.2.2_r1" />

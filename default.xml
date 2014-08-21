@@ -12,11 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -164,7 +160,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
@@ -204,7 +199,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
+
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -212,5 +207,17 @@
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
+
+  <!-- For aosp-hybris -->
+
+  <project path="build" name="platform_build" remote="github" revision="hybris-4.2.2_r1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="android" name="aosp-hybris/platform_manifest" remote="github" revision="hybris-4.2.2_r1" />
+  <project path="frameworks/base" name="aosp-hybris/platform_frameworks_base" remote="github" revision="hybris-4.2.2_r1" />
+  <project path="frameworks/native" name="aosp-hybris/platform_frameworks_native" remote="github" revision="hybris-4.2.2_r1" />
+  <project path="system/core" name="aosp-hybris/platform_system_core" remote="github" revision="hybris-4.2.2_r1" />
+  <project path="bionic" name="aosp-hybris/platform_bionic" remote="github" revision="hybris-4.2.2_r1" />
 
 </manifest>

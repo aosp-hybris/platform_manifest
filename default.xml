@@ -177,7 +177,7 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -219,5 +219,6 @@
   <project path="frameworks/native" name="aosp-hybris/platform_frameworks_native" remote="github" revision="hybris-4.2.2_r1" />
   <project path="system/core" name="aosp-hybris/platform_system_core" remote="github" revision="hybris-4.2.2_r1" />
   <project path="bionic" name="aosp-hybris/platform_bionic" remote="github" revision="hybris-4.2.2_r1" />
+  <project path="hardware/ril" name="aospy-hybris/platform_hardware_ril" remote="github" revision="hybris-4.2.2_r1" />
 
 </manifest>

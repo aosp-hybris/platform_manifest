@@ -221,4 +221,7 @@
   <project path="bionic" name="aosp-hybris/platform_bionic" remote="github" revision="hybris-4.2.2_r1" />
   <project path="hardware/ril" name="aospy-hybris/platform_hardware_ril" remote="github" revision="hybris-4.2.2_r1" />
 
+  <!-- Extra hybris libs or utils -->
+  <project path="hybris/libhybris" name="aospy-hybris/libhybris" remote="github" revision="master" />
+
 </manifest>

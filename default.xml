@@ -210,7 +210,7 @@
 
   <!-- For aosp-hybris -->
 
-  <project path="build" name="platform_build" remote="github" revision="hybris-4.2.2_r1" >
+  <project path="build" name="aosp-hybris/platform_build" remote="github" revision="hybris-4.2.2_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 

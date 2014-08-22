@@ -38,7 +38,6 @@
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
-  <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fat32lib" name="platform/external/fat32lib" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
@@ -56,7 +55,7 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jack" name="platform/external/jack" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
+<!--  <project path="external/jhead" name="platform/external/jhead" groups="pdk" /> -->
   <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
@@ -93,7 +92,6 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
-  <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
@@ -181,7 +179,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
 
   <!-- For aosp-hybris -->
-
   <project path="build" name="aosp-hybris/platform_build" remote="github" revision="hybris-4.2.2_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -196,6 +193,6 @@
   <project path="external/protobuf" name="aosp-hybris/platform_external_protobuf" remote="github" revision="hybris-4.2.2_r1" />
 
   <!-- Extra hybris libs or utils -->
-  <project path="hybris/libhybris" name="aosp-hybris/libhybris" remote="github" revision="master" />
+  <!-- <project path="hybris/libhybris" name="aosp-hybris/libhybris" remote="github" revision="master" /> -->
 
 </manifest>

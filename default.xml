@@ -59,7 +59,6 @@
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" />
@@ -150,7 +149,7 @@
   <project path="external/protobuf" name="aosp-hybris/platform_external_protobuf" remote="github" revision="hybris-4.4.2_r1" />
   <project path="external/libpng" name="aosp-hybris/platform_external_libpng" remote="github" revision="hybris-4.4.2_r1" />
   <project path="external/openssl" name="aosp-hybris/platform_external_openssl" remote="github" revision="hybris-4.4.2_r1" />
-
+  <project path="external/scrypt" name="aosp-hybris/platform_external_scrypt" remote="github" revision="hybris-4.4.2_r1"  />
 
   <!-- Extra hybris libs or utils -->
   <!-- <project path="hybris/libhybris" name="aosp-hybris/libhybris" remote="github" revision="master" /> -->

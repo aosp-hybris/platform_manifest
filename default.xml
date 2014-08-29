@@ -28,7 +28,7 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" />
+
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
@@ -150,6 +150,8 @@
   <project path="external/libpng" name="aosp-hybris/platform_external_libpng" remote="github" revision="hybris-4.4.2_r1" />
   <project path="external/openssl" name="aosp-hybris/platform_external_openssl" remote="github" revision="hybris-4.4.2_r1" />
   <project path="external/scrypt" name="aosp-hybris/platform_external_scrypt" remote="github" revision="hybris-4.4.2_r1"  />
+
+  <project path="external/flac" name="aosp-hybris/platform_external_flac" remote="github" revision="hybris-4.4.2_r1" />
 
   <!-- Extra hybris libs or utils -->
   <!-- <project path="hybris/libhybris" name="aosp-hybris/libhybris" remote="github" revision="master" /> -->

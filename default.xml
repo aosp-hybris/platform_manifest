@@ -115,6 +115,7 @@
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
 
   <!-- For aosp-hybris -->
   <project path="build" name="aosp-hybris/platform_build" remote="github" revision="hybris-4.2.2_r1" >

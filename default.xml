@@ -137,7 +137,7 @@
   <project path="external/flac" name="aosp-hybris/platform_external_flac" remote="github" revision="hybris-4.2.2_r1" />
 
   <!-- Extra hybris libs or utils -->
-  <project path="hybris/libhybris" name="aosp-hybris/libhybris" remote="github" revision="master" />
+  <project path="hybris/libhybris" name="aosp-hybris/libhybris" remote="github" revision="aosp-hybris" />
   <project path="hybris/tools" name="aosp-hybris/hybris_android_utils" remote="github" revision="master" />
 
 </manifest>

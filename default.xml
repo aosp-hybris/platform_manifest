@@ -51,7 +51,7 @@
   <project path="external/libsepol" name="platform/external/libsepol" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
-  <project path="external/qemu" name="platform/external/qemu" />
+  <!-- <project path="external/qemu" name="platform/external/qemu" /> -->
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
@@ -135,6 +135,7 @@
   <project path="external/openssl" name="aosp-hybris/platform_external_openssl" remote="github" revision="hybris-4.2.2_r1" />
   <project path="external/liblzf" name="aosp-hybris/platform_external_liblzf" remote="github" revision="hybris-4.2.2_r1" />
   <project path="external/flac" name="aosp-hybris/platform_external_flac" remote="github" revision="hybris-4.2.2_r1" />
+  <project path="external/qemu" name="aosp-hybris/platform_external_qemu" remote="github" revision="hybris-4.2.2_r1" />
 
   <!-- Extra hybris libs or utils -->
   <project path="hybris/libhybris" name="aosp-hybris/libhybris" remote="github" revision="aosp-hybris" />

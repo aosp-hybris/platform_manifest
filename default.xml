@@ -141,5 +141,6 @@
   <project path="hybris/libhybris" name="aosp-hybris/libhybris" remote="github" revision="aosp-hybris" />
   <project path="hybris/utils" name="aosp-hybris/hybris_android_utils" remote="github" revision="master" />
   <project path="hybris/assets" name="aosp-hybris/hybris_android_assets" remote="github" revision="master" />
+  <project path="hybris/boot" name="aosp-hybris/hybris_boot" remote="github" revision="master" />
 
 </manifest>

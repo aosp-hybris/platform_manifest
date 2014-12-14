@@ -142,5 +142,6 @@
   <project path="hybris/utils" name="aosp-hybris/hybris_android_utils" remote="github" revision="master" />
   <project path="hybris/assets" name="aosp-hybris/hybris_android_assets" remote="github" revision="master" />
   <project path="hybris/boot" name="aosp-hybris/hybris_boot" remote="github" revision="master" />
+  <project path="hybris/prebuilts/qemu-kernel" name="aosp-hybris/hybris_prebuilts_qemu-kernel" remote="github" revision="hybris-4.2.2_r1" />
 
 </manifest>

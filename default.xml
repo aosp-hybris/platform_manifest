@@ -18,7 +18,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+  <!-- <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" /> -->
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
@@ -156,8 +156,11 @@
   <project path="external/scrypt" name="aosp-hybris/platform_external_scrypt" remote="github" revision="hybris-4.4.2_r1"  />
 
   <project path="external/flac" name="aosp-hybris/platform_external_flac" remote="github" revision="hybris-4.4.2_r1" />
+  <project path="device/generic/goldfish" name="aosp-hybris/device_generic_goldfish" remote="github" revision="hybris-4.4.2_r1" />
 
   <!-- Extra hybris libs or utils -->
-  <!-- <project path="hybris/libhybris" name="aosp-hybris/libhybris" remote="github" revision="master" /> -->
+  <project path="hybris/utils" name="aosp-hybris/hybris_android_utils" remote="github" revision="master" />
+  <project path="hybris/assets" name="aosp-hybris/hybris_android_assets" remote="github" revision="master" />
+  <project path="hybris/boot" name="aosp-hybris/hybris_boot" remote="github" revision="master" />
 
 </manifest>
